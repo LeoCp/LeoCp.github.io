@@ -1,0 +1,123 @@
+@import url(http://michaeldoyle.co/css/animate-custom.css);
+
+
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #239070;
+  font-size: 62.5%;
+  font-weight: 100;
+  color: #fff;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+a {
+  color: #fff;
+  outline: 0;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 350px;
+  height: 200px;
+  position: absolute;
+  margin: auto;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.logo {
+  -moz-animation-delay: .6s;
+  -webkit-animation-delay: .6s;
+  -o-animation-delay: .6s;
+}
+
+.logo img {
+  width: 110%;
+  height: auto;
+}
+
+.social {
+  margin: 30px 0 0;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#facebook, #twitter, #dribbble, #codepen, #mail {
+  display: inline-block;
+  margin: 0 5px;
+  background: transparent;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  padding: 11px 0 0;
+  transition: all .3s;
+}
+
+#facebook:hover, #twitter:hover, #dribbble:hover, #codepen:hover, #mail:hover {
+  background: #fff;
+  cursor: pointer;
+}
+
+#facebook {
+  -moz-animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+  -o-animation-delay: 1.2s;
+  letter-spacing: 1px;
+}
+
+#facebook:hover {
+  color: #3B5998;
+}
+
+#twitter {
+  -moz-animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  letter-spacing: -1px;
+}
+
+#twitter:hover {
+  color: #00A0D1;
+}
+
+#dribbble {
+  -moz-animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -o-animation-delay: 1.8s;
+}
+
+#dribbble:hover {
+  color: #ea4c89;
+}
+
+#codepen {
+  -moz-animation-delay: 2.1s;
+  -webkit-animation-delay: 2.1s;
+  -o-animation-delay: 2.1s;
+}
+
+#codepen:hover {
+  color: #222;
+}
+
+#mail {
+  -moz-animation-delay: 2.4s;
+  -webkit-animation-delay: 2.4s;
+  -o-animation-delay: 2.4s;
+}
+
+#mail:hover {
+  color: #d34836;
+}
