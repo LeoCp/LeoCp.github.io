@@ -2,28 +2,29 @@
   margin: 0;
   padding: 0;
   font-family: "Simplifica";
+  src: url(../font/simplifica.ttf);
 }
 html,body {
  height:100%;
 }
 #home {
   height:100%;
-  background:url("../_img/001.jpg") center center ;
+  background:url("../img/001.jpg") center center ;
   background-size: cover;
 }
 #sobre{
   height:100%;
-  background:url("../_img/002.jpg") center center ;
+  background:url("../img/002.jpg") center center ;
   background-size: cover;
 }
 #academica{
   height:100%;
-  background:url("../_img/005.jpg") center center ;
+  background:url("../img/005.jpg") center center ;
   background-size: cover;
 }
 #projetos {
   height:100%;
-  background:url("../_img/003.jpg") center center ;
+  background:url("../img/003.jpg") center center ;
   background-size: cover;
 }
 #contatos {
