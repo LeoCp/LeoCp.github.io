@@ -1,8 +1,11 @@
+@font-face {
+ font-family: "Simplifica";
+ src: url(../font/simplifica.ttf);	
+}
 *{
   margin: 0;
   padding: 0;
   font-family: "Simplifica";
-  src: url(../font/simplifica.ttf);
 }
 html,body {
  height:100%;
