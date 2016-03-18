@@ -5,8 +5,141 @@
     <title>teste</title>
   </head>
   <body>
-    <h1>Titulo</h1>
-    <p>paragrafo1</p>
-      <p>paragrafo2</p>
+    <h1>What is MongoDB?</h1>
+    <p>
+So what is MongoDB?
+
+
+MongoDB as many things. But most of the features
+and functionality of MongoDB rests on the fact that
+it's a document database. When discussing MongoDB data
+models, queries to MongoDB, and data stored in MongoDB, we
+use JSON, or JavaScript Object Notation. This JSON document
+provides an exampl that illustrates the type
+of data MongoDB stores as a single record.Important advantages
+of this design are that development teams can
+design data models to support common data access patterns.For example, a team
+building a news website can design their data model
+so that the most frequently viewed pages may require only
+a single query to the database, and can do this in an elegant way that is fully supported by MongoDB.
+
+In this example, we're combining
+copy, author info, tags, and comments to enable
+rendering a news article with a single database query.
+
+
+Contrast this with a relational
+design, which would probably
+
+
+require several
+joins across tables,
+
+
+or an ugly means of storing
+multiple values in single table
+
+
+fields.
+
+
+Since MongoDB data
+models are not
+
+
+predicated on joining data
+from multiple tables together,
+
+
+it's much easier to
+distribute, or shard, data
+
+
+across multiple servers.
+
+
+This means, in MongoDB, you
+have a wide variety of options
+
+
+when considering
+database deployments
+
+
+from many, inexpensive
+commodity machines
+
+
+to a few larger, more
+powerful servers.
+
+
+MongoDB natively
+supports scaling out
+
+
+through its sharding
+feature, and does
+
+
+so in a way that is abstracted
+away from application logic.
+
+So developers can
+build their application
+
+
+in a way that is agnostic about
+the deployment model used.
+
+Whether a single node, or a
+few nodes, or hundreds of nodes
+
+
+are used makes no difference
+from the perspective
+
+
+of the application.
+
+
+In contrast, since joins
+and multi-table transactions
+
+
+are difficult to do in parallel,
+for a relational system,
+
+
+your best option is
+usually scaling up,
+
+acquiring increasingly expensive
+hardware so that your data can
+
+be served from a single server.
+
+
+While not always true,
+multi-table joins
+
+
+and transactions are
+typically not missed
+
+
+in a MongoDB database, because
+the schema design capabilities
+
+support models that require
+atomic reads and writes only to individual documents.
+
+
+So in summary, MongoDB
+enables application developers to design data models that make
+sense for their applications. That is, those that efficiently
+support common data access patterns. As we'll see as we move
+through this course, MongoDB is designed to support agile software engineering practices and meet the scalability and performance needs of modern applications.
+</p>
   </body>
 </html>
