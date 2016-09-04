@@ -2,5 +2,16 @@
 layout: default
 ---
 
-<h1>This is my blog!!</h1>
-<p>Leonardo Colodette</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <br>
+      <h1>Posts</h1>
+      <ul>
+        {% for post in site.posts %}
+          <li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

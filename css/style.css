@@ -1,0 +1,16 @@
+@import url(//fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
+*{
+  font-family: "Lato"
+}
+.header-content{
+  width: auto;
+  height: 450px;
+  background:url("../img/photo01.jpg") ;
+  background-size: cover;
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 900px;
+  }
+}

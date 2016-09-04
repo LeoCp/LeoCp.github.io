@@ -1,2 +1,4 @@
-markdown: redcarpet
-baseurl: ""
+baseurl: "" 
+url: ""
+markdown: kramdown
+theme: minima
