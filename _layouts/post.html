@@ -1,2 +1,12 @@
-<h1>Pagina do post</h1>
-{{content}}
+{% include head.html %}
+<div class="jumbotron jumbotron-fluid">
+  <div class="nav nav-inline">
+    <a href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+  </div>
+  <div class="container">
+    <h1 class="display-3">{{ page.title }}</h1>
+  </div>
+</div>
+<div class="container">
+  {{content}}
+</div>
