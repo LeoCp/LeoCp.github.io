@@ -7,9 +7,11 @@ layout: default
     <div class="col-md-12">
       <br>
       <h1>Posts</h1>
+      <br>
       <ul>
         {% for post in site.posts %}
-          <li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></li>
+          <li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> <span class="data">{{ post.date | date: "%b %-d, %Y" }}</span></li>
+          <hr>
         {% endfor %}
       </ul>
     </div>

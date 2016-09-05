@@ -5,12 +5,27 @@
 .header-content{
   width: auto;
   height: 450px;
-  background:url("../img/photo01.jpg") ;
+  background:url("../img/photo.jpg") center center ;
   background-size: cover;
 }
-
+.logo {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 35%;
+  left: 0;
+  text-align: center;
+  height: 100px;
+}
 @media (min-width: 1200px){
   .container {
     max-width: 900px;
   }
+}
+ul li {
+  list-style: none;
+}
+.data {
+  float: right;
 }
